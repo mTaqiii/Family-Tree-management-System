@@ -29,6 +29,11 @@ Build your roots, connect generations, and explore your family story through an 
 - **Qt Framework** - Cross-platform GUI framework for building the desktop application
 - **C++11 or higher** - Modern C++ standard for robust and efficient code
 
+### ScreenShots
+<img width="1919" height="967" alt="Screenshot 2026-10-01 223702" src="https://github.com/user-attachments/assets/471ea689-3103-404e-8943-96c0ce21e252" />
+<img width="1917" height="968" alt="Screenshot 2026-10-01 223737" src="https://github.com/user-attachments/assets/560bb623-46ae-46c7-a068-183809ee8089" />
+<img width="794" height="286" alt="Screenshot 2026-10-01 223925" src="https://github.com/user-attachments/assets/a2544ff5-0e20-44e4-9337-4873732e2ed0" />
+
 ## System Requirements
 
 ### Minimum Requirements
