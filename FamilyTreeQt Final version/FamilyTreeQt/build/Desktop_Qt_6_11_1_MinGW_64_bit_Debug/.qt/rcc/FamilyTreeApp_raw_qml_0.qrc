@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="/FamilyTreeQt/">
+    <file alias="qml/main.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/main.qml</file>
+    <file alias="qml/Theme.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/Theme.qml</file>
+    <file alias="qml/AppSettings.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/AppSettings.qml</file>
+    <file alias="qml/Toast.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/Toast.qml</file>
+    <file alias="qml/ToastHost.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/ToastHost.qml</file>
+    <file alias="qml/ConfirmDialog.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/ConfirmDialog.qml</file>
+    <file alias="qml/PersonPicker.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/PersonPicker.qml</file>
+    <file alias="qml/SplashScreen.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/SplashScreen.qml</file>
+    <file alias="qml/Dashboard.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/Dashboard.qml</file>
+    <file alias="qml/TreeView.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/TreeView.qml</file>
+    <file alias="qml/PersonCard.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/PersonCard.qml</file>
+    <file alias="qml/InfoPanel.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/InfoPanel.qml</file>
+    <file alias="qml/NavButton.qml">D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/qml/NavButton.qml</file>
+  </qresource>
+</RCC>
+

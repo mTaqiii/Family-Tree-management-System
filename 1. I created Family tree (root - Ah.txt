@@ -1,0 +1,11 @@
+1. I created Family tree (root -> Ahmad Ali)
+then another family (Root -> John) after adding children( harry ) goes to harry's menu and update hi name to Brook . enter 7 move to previous person it moved to Ahmad Ali ID : 1 or showing no previous person it should move to John 
+2. I add Sara Spouse of John 
+then created another family tree (root -> Adam ) and add mother by link existing mother and then search by name ( I look into  sara ) it should display Sara, or SARA  or sara or sArA and all cases (no upper and lower case in any relationship like if we are working with father , mother or any other relationship) so search Function or Find person first should convert input to lower case and then also the person names to compare with and then display all 
+3. if you want to keep that exported XML ( Dont overright by next exported XML) just rename that already exported XML file
+4.Also use for male and female symbols everywhere the word male and female used also add option to recover or open xml file(like if a family tree already saved as xml you can reload family tree by opening that xml file in project)
+
+
+
+
+1. After Deceasing a person, one cannot enter its child or any other relationship

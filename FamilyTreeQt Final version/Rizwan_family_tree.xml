@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FamilyTree>
+  <Person id="1" name="Rizwan" gender="male" status="alive" birthYear="1950">
+    <Spouse id="4" name="Saadia" gender="female" status="alive"/>
+    <Children>
+      <Person id="5" name="Ali Hamza" gender="male" status="alive">
+        <Children>
+          <Person id="7" name="Hammad" gender="male" status="alive"/>
+          <Person id="8" name="Maryam" gender="female" status="alive"/>
+        </Children>
+      </Person>
+    </Children>
+  </Person>
+</FamilyTree>

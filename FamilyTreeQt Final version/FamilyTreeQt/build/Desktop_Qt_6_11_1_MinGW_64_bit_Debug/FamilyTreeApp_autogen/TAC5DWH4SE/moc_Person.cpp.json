@@ -1,0 +1,264 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Creatable",
+                    "value": "false"
+                },
+                {
+                    "name": "QML.UncreatableReason",
+                    "value": "Person objects are created by FamilyForest, not from QML"
+                }
+            ],
+            "className": "Person",
+            "lineNumber": 19,
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 25,
+                    "name": "id",
+                    "override": false,
+                    "read": "id",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 26,
+                    "name": "name",
+                    "notify": "nameChanged",
+                    "override": false,
+                    "read": "name",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setName"
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 27,
+                    "name": "gender",
+                    "override": false,
+                    "read": "gender",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Gender",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 28,
+                    "name": "status",
+                    "notify": "statusChanged",
+                    "override": false,
+                    "read": "status",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "LifeStatus",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setStatus"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 30,
+                    "name": "father",
+                    "notify": "fatherChanged",
+                    "override": false,
+                    "read": "father",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Person*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 31,
+                    "name": "mother",
+                    "notify": "motherChanged",
+                    "override": false,
+                    "read": "mother",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Person*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 32,
+                    "name": "spouse",
+                    "notify": "spouseChanged",
+                    "override": false,
+                    "read": "spouse",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Person*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 33,
+                    "name": "children",
+                    "notify": "childrenChanged",
+                    "override": false,
+                    "read": "children",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QList<Person*>",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 39,
+                    "name": "birthYear",
+                    "notify": "birthYearChanged",
+                    "override": false,
+                    "read": "birthYear",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setBirthYear"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "lineNumber": 40,
+                    "name": "deathYear",
+                    "notify": "deathYearChanged",
+                    "override": false,
+                    "read": "deathYear",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setDeathYear"
+                }
+            ],
+            "qualifiedClassName": "Person",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 88,
+                    "name": "nameChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 89,
+                    "name": "statusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 90,
+                    "name": "fatherChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 91,
+                    "name": "motherChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 92,
+                    "name": "spouseChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 93,
+                    "name": "childrenChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 94,
+                    "name": "birthYearChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 95,
+                    "name": "deathYearChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Person.h",
+    "outputRevision": 69
+}

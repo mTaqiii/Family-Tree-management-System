@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Creatable",
+                    "value": "false"
+                },
+                {
+                    "name": "QML.UncreatableReason",
+                    "value": "Provided by FamilyTreeController"
+                }
+            ],
+            "className": "TreeLayoutModel",
+            "lineNumber": 9,
+            "object": true,
+            "qualifiedClassName": "TreeLayoutModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "TreeLayoutModel.h",
+    "outputRevision": 69
+}

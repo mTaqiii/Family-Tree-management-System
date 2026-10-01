@@ -1,0 +1,543 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Singleton",
+                    "value": "true"
+                }
+            ],
+            "className": "FamilyTreeController",
+            "lineNumber": 22,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "person",
+                            "type": "Person*"
+                        },
+                        {
+                            "name": "birthYear",
+                            "type": "int"
+                        },
+                        {
+                            "name": "deathYear",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 58,
+                    "name": "setYears",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "root",
+                            "type": "Person*"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 64,
+                    "name": "loadTree",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "person",
+                            "type": "Person*"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 69,
+                    "name": "toggleCollapsed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "person",
+                            "type": "Person*"
+                        }
+                    ],
+                    "index": 5,
+                    "isConst": true,
+                    "lineNumber": 75,
+                    "name": "ancestryPath",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "gender",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 83,
+                    "name": "registerRootPerson",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "child",
+                            "type": "Person*"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 85,
+                    "name": "registerNewFather",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "child",
+                            "type": "Person*"
+                        },
+                        {
+                            "name": "father",
+                            "type": "Person*"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 86,
+                    "name": "linkExistingFather",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "child",
+                            "type": "Person*"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 88,
+                    "name": "registerNewMother",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "child",
+                            "type": "Person*"
+                        },
+                        {
+                            "name": "mother",
+                            "type": "Person*"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 89,
+                    "name": "linkExistingMother",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "person",
+                            "type": "Person*"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "lineNumber": 91,
+                    "name": "registerNewSpouse",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "person",
+                            "type": "Person*"
+                        },
+                        {
+                            "name": "spouse",
+                            "type": "Person*"
+                        }
+                    ],
+                    "index": 12,
+                    "lineNumber": 92,
+                    "name": "linkExistingSpouse",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "parent",
+                            "type": "Person*"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "gender",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 13,
+                    "lineNumber": 94,
+                    "name": "registerNewChild",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "parent",
+                            "type": "Person*"
+                        },
+                        {
+                            "name": "child",
+                            "type": "Person*"
+                        }
+                    ],
+                    "index": 14,
+                    "lineNumber": 95,
+                    "name": "linkExistingChild",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "child",
+                            "type": "Person*"
+                        }
+                    ],
+                    "index": 15,
+                    "lineNumber": 101,
+                    "name": "unlinkFather",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "child",
+                            "type": "Person*"
+                        }
+                    ],
+                    "index": 16,
+                    "lineNumber": 102,
+                    "name": "unlinkMother",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "root",
+                            "type": "Person*"
+                        },
+                        {
+                            "name": "filePath",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 17,
+                    "lineNumber": 109,
+                    "name": "exportTree",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "filePath",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 18,
+                    "lineNumber": 115,
+                    "name": "importTree",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "person",
+                            "type": "Person*"
+                        },
+                        {
+                            "name": "newName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 19,
+                    "lineNumber": 119,
+                    "name": "renamePerson",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "person",
+                            "type": "Person*"
+                        }
+                    ],
+                    "index": 20,
+                    "lineNumber": 120,
+                    "name": "markDeceased",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "person",
+                            "type": "Person*"
+                        }
+                    ],
+                    "index": 21,
+                    "lineNumber": 121,
+                    "name": "divorcePerson",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "query",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 22,
+                    "lineNumber": 127,
+                    "name": "searchByName",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 23,
+                    "lineNumber": 128,
+                    "name": "searchById",
+                    "returnType": "Person*"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 28,
+                    "name": "trees",
+                    "override": false,
+                    "read": "treesModel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "PersonListModel*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 29,
+                    "name": "searchResults",
+                    "override": false,
+                    "read": "searchResultsModel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "PersonListModel*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 30,
+                    "name": "treeLayout",
+                    "override": false,
+                    "read": "treeLayoutModel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "TreeLayoutModel*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 31,
+                    "name": "totalPeople",
+                    "notify": "treeChanged",
+                    "override": false,
+                    "read": "totalPeople",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 32,
+                    "name": "treeEdges",
+                    "notify": "treeChanged",
+                    "override": false,
+                    "read": "treeEdges",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 33,
+                    "name": "activeRoot",
+                    "notify": "treeChanged",
+                    "override": false,
+                    "read": "activeRoot",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Person*",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 34,
+                    "name": "treeBounds",
+                    "notify": "treeChanged",
+                    "override": false,
+                    "read": "treeBounds",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QRectF",
+                    "user": false,
+                    "virtual": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 35,
+                    "name": "timelineEnabled",
+                    "notify": "timelineChanged",
+                    "override": false,
+                    "read": "timelineEnabled",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setTimelineEnabled"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 36,
+                    "name": "timelineYear",
+                    "notify": "timelineChanged",
+                    "override": false,
+                    "read": "timelineYear",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setTimelineYear"
+                }
+            ],
+            "qualifiedClassName": "FamilyTreeController",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 132,
+                    "name": "treeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 133,
+                    "name": "timelineChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "FamilyTreeController.h",
+    "outputRevision": 69
+}

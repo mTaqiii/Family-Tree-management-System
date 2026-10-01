@@ -1,0 +1,5 @@
+{
+    "cmake.sourceDirectory": "D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt",
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.buildDirectory": "${workspaceFolder}\\builds\\${buildKit}\\${buildType}"
+}

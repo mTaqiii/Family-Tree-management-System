@@ -1,0 +1,17 @@
+module FamilyTreeQt
+typeinfo FamilyTreeApp.qmltypes
+prefer :/FamilyTreeQt/
+singleton Theme 1.0 qml/Theme.qml
+singleton AppSettings 1.0 qml/AppSettings.qml
+singleton Toast 1.0 qml/Toast.qml
+ToastHost 1.0 qml/ToastHost.qml
+ConfirmDialog 1.0 qml/ConfirmDialog.qml
+PersonPicker 1.0 qml/PersonPicker.qml
+SplashScreen 1.0 qml/SplashScreen.qml
+Dashboard 1.0 qml/Dashboard.qml
+TreeView 1.0 qml/TreeView.qml
+PersonCard 1.0 qml/PersonCard.qml
+InfoPanel 1.0 qml/InfoPanel.qml
+NavButton 1.0 qml/NavButton.qml
+depends QtQuick
+

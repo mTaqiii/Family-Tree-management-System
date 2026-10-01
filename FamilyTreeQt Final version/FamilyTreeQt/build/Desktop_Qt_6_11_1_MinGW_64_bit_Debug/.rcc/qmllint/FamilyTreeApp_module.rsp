@@ -1,0 +1,14 @@
+-I
+D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug
+-I
+D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/FamilyTreeQt
+-I
+D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug
+-I
+D:/QT/6.11.1/mingw_64/qml
+--resource
+D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qt/rcc/qmake_FamilyTreeQt.qrc
+--resource
+D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qt/rcc/FamilyTreeApp_raw_qml_0.qrc
+--module
+FamilyTreeQt

@@ -1,0 +1,17 @@
+--resource
+D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qt/rcc/qmake_FamilyTreeQt.qrc
+--resource
+D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/.qt/rcc/FamilyTreeApp_raw_qml_0.qrc
+/FamilyTreeQt/qml/main.qml
+/FamilyTreeQt/qml/Theme.qml
+/FamilyTreeQt/qml/AppSettings.qml
+/FamilyTreeQt/qml/Toast.qml
+/FamilyTreeQt/qml/ToastHost.qml
+/FamilyTreeQt/qml/ConfirmDialog.qml
+/FamilyTreeQt/qml/PersonPicker.qml
+/FamilyTreeQt/qml/SplashScreen.qml
+/FamilyTreeQt/qml/Dashboard.qml
+/FamilyTreeQt/qml/TreeView.qml
+/FamilyTreeQt/qml/PersonCard.qml
+/FamilyTreeQt/qml/InfoPanel.qml
+/FamilyTreeQt/qml/NavButton.qml

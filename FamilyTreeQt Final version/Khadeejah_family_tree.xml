@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FamilyTree>
+  <Person id="9" name="Khadeejah" gender="female" status="alive">
+    <Spouse id="10" name="Zubair" gender="male" status="alive"/>
+    <Children>
+      <Person id="11" name="Umair" gender="male" status="alive"/>
+    </Children>
+  </Person>
+</FamilyTree>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FamilyTree>
+  <Person id="9" name="Shehryar Khan" gender="male" status="alive" birthYear="2003">
+    <Spouse id="6" name="Hadiya" gender="female" status="alive"/>
+    <Children>
+      <Person id="7" name="Hammad" gender="male" status="alive"/>
+      <Person id="12" name="Hasnat" gender="male" status="alive"/>
+    </Children>
+  </Person>
+</FamilyTree>

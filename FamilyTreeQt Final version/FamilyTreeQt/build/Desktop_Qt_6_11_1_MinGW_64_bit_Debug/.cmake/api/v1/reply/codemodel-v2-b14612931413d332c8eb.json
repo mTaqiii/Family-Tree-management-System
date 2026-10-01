@@ -1,0 +1,222 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FamilyTreeQt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FamilyTreeApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FamilyTreeApp-Debug-f3835a14716c037cd5e1.json",
+					"name" : "FamilyTreeApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FamilyTreeApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FamilyTreeApp_autogen-Debug-e5dc317b03c758670908.json",
+					"name" : "FamilyTreeApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FamilyTreeApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FamilyTreeApp_autogen_timestamp_deps-Debug-89d8c63aa58c71ce16b3.json",
+					"name" : "FamilyTreeApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FamilyTreeApp_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FamilyTreeApp_copy_qml-Debug-aec36674090c49c7a175.json",
+					"name" : "FamilyTreeApp_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FamilyTreeApp_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FamilyTreeApp_copy_res-Debug-c22dcdf8e30a808bb0e2.json",
+					"name" : "FamilyTreeApp_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FamilyTreeApp_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FamilyTreeApp_qmlimportscan-Debug-830e3aac21487334e398.json",
+					"name" : "FamilyTreeApp_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FamilyTreeApp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FamilyTreeApp_qmllint-Debug-6df06261903347f44a3f.json",
+					"name" : "FamilyTreeApp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FamilyTreeApp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FamilyTreeApp_qmllint_json-Debug-f90c3a9d207b7886bb6e.json",
+					"name" : "FamilyTreeApp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FamilyTreeApp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FamilyTreeApp_qmllint_module-Debug-26946dc3afe53afa195c.json",
+					"name" : "FamilyTreeApp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FamilyTreeApp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FamilyTreeApp_qmltyperegistration-Debug-cba30592f7497826fecb.json",
+					"name" : "FamilyTreeApp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-33147e0f4e15444e15b6.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-bee07df53e642fee1a9d.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-777c69914bbf752d8084.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-52a53255172c9de2f5fa.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-47bbe58aa672bbb8c74f.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-47216daa15cb2bf8d819.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-72f433a45de718c6db2d.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-4579edfed799cf33aabe.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_FamilyTreeApp_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_FamilyTreeApp_aotstats_target-Debug-61ab9042b3229be15124.json",
+					"name" : "module_FamilyTreeApp_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug",
+		"source" : "D:/Study/GitHib Repos/Family tree management System/FamilyTreeQt-Phase5/FamilyTreeQt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

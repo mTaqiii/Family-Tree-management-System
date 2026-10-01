@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "FamilyForest",
+            "lineNumber": 26,
+            "object": true,
+            "qualifiedClassName": "FamilyForest",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "FamilyForest.h",
+    "outputRevision": 69
+}

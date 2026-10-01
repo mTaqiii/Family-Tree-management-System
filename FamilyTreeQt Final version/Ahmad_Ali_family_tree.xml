@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FamilyTree>
+  <Person id="1" name="Ahmad Ali" gender="male" status="alive" birthYear="1970">
+    <Spouse id="4" name="Shakeela" gender="female" status="alive"/>
+    <Children>
+      <Person id="5" name="Muaviz Hafeez" gender="male" status="alive"/>
+      <Person id="6" name="Laiba bhatti" gender="female" status="alive"/>
+      <Person id="7" name="Taqi" gender="male" status="alive"/>
+      <Person id="8" name="Anas" gender="male" status="alive"/>
+    </Children>
+  </Person>
+</FamilyTree>

@@ -1,0 +1,3 @@
+D:\QT\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\FamilyTreeApp.dir/objects.a
+D:\QT\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\FamilyTreeApp.dir/objects.a @CMakeFiles\FamilyTreeApp.dir\objects1.rsp
+D:\QT\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\FamilyTreeApp.dir/objects.a -Wl,--no-whole-archive -o FamilyTreeApp.exe -Wl,--out-implib,libFamilyTreeApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FamilyTreeApp.dir\linkLibs.rsp
